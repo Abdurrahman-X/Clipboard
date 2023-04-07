@@ -1,0 +1,232 @@
+body{
+    font-family:'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+ h6{
+    font-family:'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5px;
+ }
+/* 
+// All containers */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.copyright{
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* // Paragraphs */
+.para{
+    line-height: 2em;
+    font-size: 18px ;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 60px
+}
+
+/* // Buttons */
+.btns{
+    margin-bottom:90px;
+}
+.btn__class{
+    margin: 20px 5px 0 0;
+    font-family:'Bai Jamjuree', sans-serif;
+    color: white;
+    width: 30%;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btns .ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+.btns .mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+/* // Keep track of your snippets */
+.snipps{
+    margin: 90px 50px 90px -60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.snipps img {
+    width: 50%;
+    height: auto;
+}
+.min-text{
+    margin: 60px 0 0 120px;
+}
+
+/* .content img{
+    margin: 70px 0
+} */
+
+.supercharge{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.workflow{
+    margin: 90px 80px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.individual{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+
+/* // Footer */
+.footer{
+    background-color: #F5F6F8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer p{
+    color:  #000;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+}
+
+.footer-icons i{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* Mobile-Version */
+@media (max-width: 767px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .copyright{
+        background-image: url("images/bg-header-mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .btn__class{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+
+    .snipps{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .snipps img{
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+
+    .min-text{
+        margin: 50px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .content img{
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .workflow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 90px;
+    }
+
+    .logos img{
+        width: 40%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 70px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: none;
+        padding: 50px 0;
+    }
+
+    .footer-icons i{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
