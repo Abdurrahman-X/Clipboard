@@ -119,6 +119,16 @@ body{
     justify-content: space-around;
 }
 
+.quick-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-links div{
+    margin-right: 80px;
+}
+
 .footer p{
     color:  #000;
     font-size: 18px;
@@ -133,8 +143,8 @@ body{
 }
 
 .footer-icons i{
-    /* display: flex;
-    justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     margin: 10px;
     cursor: pointer;
 }
@@ -199,10 +209,14 @@ body{
     .workflow{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: auto;
+        text-align: center;
     }
 
-    .individual{
-        width: 100%;
+    .individual p{
+        margin-right: 0;
+        margin-left: 0;
     }
 
     .logos{
@@ -231,12 +245,22 @@ body{
     }
 
     .quick-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .quick-links div{
+        align-items: center;
+        justify-content: center;
         text-align: center;
         margin: auto;
     }
 
     .quick-links p{
         font-size: 20px;
+        text-align: center;
     }
 
     .footer-icons{
