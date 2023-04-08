@@ -124,7 +124,7 @@ body{
     font-size: 18px;
     margin-top: 10px;
     cursor: pointer;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .footer-icons{
@@ -133,8 +133,8 @@ body{
 }
 
 .footer-icons i{
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     margin: 10px;
     cursor: pointer;
 }
@@ -201,6 +201,10 @@ body{
         flex-direction: column;
     }
 
+    .individual{
+        width: 100%;
+    }
+
     .logos{
         display: flex;
         flex-direction: column;
@@ -220,13 +224,25 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: none;
-        padding: 50px 0;
     }
 
+    .footer img {
+        margin-bottom: 25px;
+    }
+
+    .quick-links{
+        text-align: center;
+        margin: auto;
+    }
+
+    .quick-links p{
+        font-size: 20px;
+    }
+
+    .footer-icons{
+        margin-top: 20px;
+    }
     .footer-icons i{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        margin-right: 20px;
     }
 }
